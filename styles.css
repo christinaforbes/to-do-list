@@ -1,0 +1,185 @@
+/*
+    Christina Forbes
+    12/8/2020
+*/
+
+/* 
+    phone styles 
+*/
+body {
+    font-family: Raleway, sans-serif;
+    background-color: #ffffff;
+}
+
+/* header styles */
+header {
+    text-align: center;
+    background-color: #d9d9d9; 
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+h1 {
+    font-size: 2em;
+    color: #000000;
+}
+
+/* main styles */
+#wrapper {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    box-sizing: border-box;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #000000;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 1.1em;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.submit {
+    box-sizing: border-box;
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    background-color: #d9d9d9;
+    color: #000000;
+    border: 0;
+    border-radius: 20px;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    border: 1px solid #d9d9d9;
+    border-radius: 25px;
+    padding-left: 1em;
+    padding-right: 0.75em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.5em;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: #ffffff;
+    border: 0;
+}
+
+select {
+    box-sizing: border-box;
+    display: block;
+    font-family: Raleway, sans-serif;
+    font-size: 1.1em;
+    color: #000000;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+/* footer styles */
+footer {
+    font-size: 1em;
+    text-align: center;
+    color: #000000;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* 
+    tablet styles 
+*/
+@media (min-width: 600px) {
+
+    /* header styles*/
+    header {
+        padding-top: 0.50em;
+        padding-bottom: 0.50em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    /* main styles */
+    #wrapper {
+        width: 75%;
+    }
+
+    /* footer styles */
+    footer {
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+
+}
+
+/* 
+    desktop styles 
+*/
+@media (min-width: 1200px) {
+
+    /* header styles */
+    header {
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    /* main styles */
+    #wrapper {
+        width: 55%;
+    }
+
+    /* footer styles */
+    footer {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+}
